@@ -1,4 +1,4 @@
-# Laravel Markdown and MArkdown Extra
+# Laravel Markdown and Markdown Extra
 
 Laravel 4.1 Markdown Parser Depends on Michel Fortin's Parser for Markdown and Markdown Extra
 
