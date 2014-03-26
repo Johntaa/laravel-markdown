@@ -1,6 +1,7 @@
 {
     "name": "johntaa/markdown",
     "description": "",
+	"license":"MIT",
     "authors": [
         {
             "name": "John Taa",
