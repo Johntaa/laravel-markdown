@@ -5,6 +5,10 @@ Laravel 4.1 Markdown Parser Depends on Michel Fortin's Parser for Markdown and M
    
 ## Installation
 
+Add to the composer.json file the following line :
+
+`"johntaa.markdown":"dev-master"`
+
 In app.php add the following line to the service providers array :
 
 `'Johntaa\Markdown\MarkdownServiceProvider'`
