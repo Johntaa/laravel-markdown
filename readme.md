@@ -2,7 +2,7 @@
 
 Laravel 4.1 Markdown Parser Depends on Michel Fortin's Parser for Markdown and Markdown Extra
 
- 
+   
 ## Installation
 
 In app.php add the following line to the service providers array :
