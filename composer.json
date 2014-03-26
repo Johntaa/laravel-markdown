@@ -1,0 +1,20 @@
+{
+    "name": "johntaa/markdown",
+    "description": "",
+    "authors": [
+        {
+            "name": "John Taa",
+            "email": "fccffccffccf@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Johntaa\\Markdown": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
