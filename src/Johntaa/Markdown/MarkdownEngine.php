@@ -1,4 +1,5 @@
 <?php namespace Johntaa\Markdown;
+	 
 
 use Illuminate\View\Engines\EngineInterface;
 
@@ -13,7 +14,7 @@ class MarkdownEngine implements EngineInterface
 	}
 
 	public function get($path, array $data = array())
-	{
+	{ 
 		return $this->parser->transform( file_get_contents($path) );
 	}
 }

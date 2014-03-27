@@ -1,7 +1,7 @@
 <?php namespace Johntaa\Markdown;
 
 use Illuminate\Support\ServiceProvider;
-
+ 
 class MarkdownServiceProvider extends ServiceProvider {
 
 	/**
@@ -10,9 +10,7 @@ class MarkdownServiceProvider extends ServiceProvider {
 	* @var bool
 	*/
 	protected $defer = false;
-
-	
-	
+ 
 	public function boot(){ 
      
       $this->package('johntaa/markdown');
@@ -37,8 +35,8 @@ class MarkdownServiceProvider extends ServiceProvider {
 	public function register()
 	{
 		list($app, $view) = array($this->app, $this->app['view']);
-
-		$app->singleton('markdown', '\Johntaa\Markdown\Markdown');
+		 
+		$app->singleton('markdown', 'Johntaa\Markdown\MarkdownExtraParser');
 
 		$view->addExtension('md', 'markdown', function() use ($app) {
 			return new MarkdownEngine($app['markdown']);
