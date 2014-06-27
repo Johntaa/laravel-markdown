@@ -18,15 +18,7 @@ class MarkdownServiceProvider extends ServiceProvider {
      
 		}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 	/**
 	* Register the service provider.
 	*
