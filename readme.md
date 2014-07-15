@@ -1,6 +1,6 @@
 # Laravel Markdown and Markdown Extra
 
-Laravel 4.1 Markdown Parser Depends on Michel Fortin's Parser for Markdown and Markdown Extra
+Laravel 4.* Service Provider for [Parser for Markdown and Markdown Extra](https://github.com/michelf/php-markdown)
 
    
 ## Installation

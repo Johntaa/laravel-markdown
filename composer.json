@@ -10,12 +10,13 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.*"
+        "illuminate/support": "4.*",		
+		"michelf/php-markdown": "1.4.*@dev"
     },
     "autoload": {
         "psr-0": {
             "Johntaa\\Markdown": "src/"
         }
-    },
+    }, 
     "minimum-stability": "dev"
 }

@@ -1,6 +1,7 @@
 <?php namespace Johntaa\Markdown;
 
 use Illuminate\Support\ServiceProvider;
+use Michelf;
  
 class MarkdownServiceProvider extends ServiceProvider {
 
@@ -27,9 +28,8 @@ class MarkdownServiceProvider extends ServiceProvider {
 	public function register()
 	{
 		list($app, $view) = array($this->app, $this->app['view']);
-		 
-		$app->singleton('markdown', 'Johntaa\Markdown\MarkdownExtraParser');
-
+		  
+        $app->singleton('markdown', 'Michelf\MarkdownExtra');
 		$view->addExtension('md', 'markdown', function() use ($app) {
 			return new MarkdownEngine($app['markdown']);
 		});
