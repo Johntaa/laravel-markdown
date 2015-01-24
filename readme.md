@@ -7,7 +7,7 @@ Laravel 4.* Service Provider for [Parser for Markdown and Markdown Extra](https:
 
 Add to the composer.json file the following line :
 
-`"johntaa.markdown":"dev-master"`
+`"johntaa\markdown":"dev-master"`
 
 In app.php add the following line to the service providers array :
 
