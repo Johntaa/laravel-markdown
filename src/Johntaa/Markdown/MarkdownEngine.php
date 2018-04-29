@@ -1,20 +1,17 @@
 <?php namespace Johntaa\Markdown;
 	 
+	 use Illuminate\Contracts\View\Engine as Engine;
 
-use Illuminate\View\Engines\EngineInterface;
-
-class MarkdownEngine implements EngineInterface
-{
-
-	protected $parser;
-
-	public function __construct($parser)
-	{
-		$this->parser = $parser;
-	}
-
-	public function get($path, array $data = array())
-	{ 
-		return $this->parser->transform( file_get_contents($path) );
-	}
-}
+	 class MarkdownEngine  implements Engine
+	 {
+		 protected $parser;
+		 public function __construct($parser = 'markdown')
+		 {
+			  
+			 $this->parser = $parser;
+		 }
+		 public function get($path, array $data = [])
+		 {  
+			 return $this->parser->transform( file_get_contents($path) );
+		 }
+	 }
