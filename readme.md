@@ -1,6 +1,6 @@
 # Laravel Markdown and Markdown Extra
 
-Laravel 4.* Service Provider for [Parser for Markdown and Markdown Extra](https://github.com/michelf/php-markdown)
+Laravel 4.* Service Provider -- for [Parser for Markdown and Markdown Extra](https://github.com/michelf/php-markdown)
 
    
 ## Installation
