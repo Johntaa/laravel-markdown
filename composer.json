@@ -14,8 +14,8 @@
     },
     "autoload": {
         "psr-0": {
-            "Johntaa\\Markdown": "src/"
+            "Johntaa\\Markdown\\": "src/"
         }
     }, 
-    "minimum-stability": "dev"
+  
 }
