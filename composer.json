@@ -16,6 +16,6 @@
         "psr-0": {
             "Johntaa\\Markdown\\": "src/"
         }
-    }, 
+    }
   
 }
