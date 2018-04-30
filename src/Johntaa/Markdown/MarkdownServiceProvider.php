@@ -15,11 +15,7 @@ class MarkdownServiceProvider extends ViewServiceProvider {
 	*/
 	protected $defer = false;
  
-	public function boot(){ 
-     
-      $this->package('johntaa/markdown');
-       
-		}
+	public function boot(){  }
 	
 		
 	/**
