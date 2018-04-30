@@ -8,10 +8,10 @@ Laravel Service Provider -- for [Parser for Markdown and Markdown Extra](https:/
 Add to the composer.json file the following line :
  
  For Laravel-4 
-`"johntaa\markdown":"0.1.0"`
+`"johntaa/markdown":"0.1.0"`
 
 For Laravel-5
-`"johntaa\markdown":"1.0.0"`
+`"johntaa/markdown":"1.0.0"`
 
 
 In app.php add the following line to the service providers array :
