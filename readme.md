@@ -2,6 +2,8 @@
 
 Laravel Service Provider -- for [Parser for Markdown and Markdown Extra](https://github.com/michelf/php-markdown)
 
+This Package will Add Laravel View Extension to Handle the Markdown language Files which ended with extension  `.md`,
+When This Package is installed we can add markdown language files to the view folder , and it will be compiled easily
    
 ## Installation
 
