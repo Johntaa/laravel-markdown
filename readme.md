@@ -11,7 +11,7 @@ Add to the composer.json file the following line :
 `"johntaa/markdown":"0.1.0"`
 
 For Laravel-5
-`"johntaa/markdown":"1.0.0"`
+`"johntaa/markdown":"1.0.1"`
 
 
 In app.php add the following line to the service providers array :
