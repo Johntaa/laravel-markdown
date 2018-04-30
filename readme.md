@@ -27,6 +27,9 @@ Thats All;
 Laravel will bind  md extension to the Parser library, So when you want to view .md file, you
 only need to add the .md file to your view folder and to the View::make .
 
+> Notice : You Can Include the markdown file within a blade template file @include('test') and will be parsed inside
+ the blade file .
+
 ## Example:
 
 in views folder we have a file called `test.md `, And in route function we reach the file 
